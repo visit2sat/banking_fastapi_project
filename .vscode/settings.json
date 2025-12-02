@@ -1,0 +1,42 @@
+{
+    "sqltools.connections": [
+        {
+            "connectionMethod": "Server and Port",
+            "odbcOptions": {
+                "dbms": "Microsoft SQL Server",
+                "showTblRecords": "DBMS",
+                "inaccessibleDatabase": true,
+                "inaccessibleSchema": true
+            },
+            "previewLimit": 50,
+            "port": 1972,
+            "odbcDriver": {
+                "driver": "SQL Server"
+            },
+            "driver": "SQLTools ODBC Driver",
+            "name": "conn",
+            "server": "loicalhost",
+            "database": "banking",
+            "username": "sa",
+            "password": "P@55port"
+        },
+        {
+            "connectionMethod": "Server and Port",
+            "odbcOptions": {
+                "dbms": "Auto-detect",
+                "showTblRecords": "DBMS"
+            },
+            "previewLimit": 50,
+            "port": 1972,
+            "odbcDriver": {
+                "driver": "SQL Server"
+            },
+            "driver": "SQLTools ODBC Driver",
+            "name": "bankingconnection",
+            "server": "DESKTOP-DHSVB9G",
+            "database": "banking",
+            "username": "sa",
+            "password": "Sathish1983sei"
+        }
+    ]
+}
